@@ -1,6 +1,5 @@
-# React Project for the React Course
-
-## Available Scripts
+1 Задание в папке 1-task
+2 задание в папке src
 
 In the project directory, you can run:
 
