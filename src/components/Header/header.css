@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+.header {
+  padding-top: 11px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-wrap {
+  position: relative;
+}
+
+.header__logo {
+  width: 140px;
+  height: 24px;
+}
+
+.header__logo-label {
+  width: 165px;
+  height: 24px;
+  margin-top: 10px;
+
+  position: absolute;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #e4e5ea;
+}
+
+.header__nav {
+  margin-left: 52px;
+  margin-right: auto;
+}
+
+.nav {
+  font-size: 0;
+}
+
+.nav__link {
+  margin-left: 30px;
+
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #e4e5ea;
+  text-decoration: none;
+}
+
+.nav__link:first-child {
+  margin-left: 0px;
+}
+
+.header__fone-num {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #e4e5ea;
+}
+
+.header__links {
+  margin-left: 47px;
+}
+
+.header__links-link {
+  margin-left: 30px;
+
+  font-size: 0;
+  text-decoration: none;
+}
+
+.header__links-link:first-child {
+  margin-left: 0px;
+}
+
+.link__icon {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 1180px) {
+  .header {
+    padding-top: 0px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    width: 100%;
+    height: 55px;
+
+    justify-content: center;
+
+    background: #0e1014;
+  }
+
+  .header__logo-wrap {
+    display: none;
+  }
+
+  .header__nav {
+    margin: 0;
+  }
+
+  .nav {
+    font-size: 0;
+  }
+
+  .nav__link {
+    margin-left: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #e4e5ea;
+  }
+
+  .nav__link:last-child {
+    display: none;
+  }
+
+  .header__fone-num {
+    display: none;
+  }
+
+  .header__links {
+    display: none;
+  }
+}
